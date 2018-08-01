@@ -1,0 +1,31 @@
+{
+  "name": "iceproductionz/value-middleware",
+  "description": "Value DTO models",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Musa Chanakira",
+      "email": "jethot@hotmail.co.uk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "IceProductionz\\ValueMiddleware\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "IceProductionzTests\\ValueMiddleware\\Unit\\": "tests/unit/"
+    },
+    "classmap": [
+      "tests/"
+    ]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "require": {
+    "iceproductionz/value": "^1.0"
+  }
+}
